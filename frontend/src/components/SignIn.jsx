@@ -30,10 +30,10 @@ function SignIn() {
       <input type="submit" value="Login" className="btn solid" />
       <p className="social-text">Or Sign in with social platforms</p>
       <div className="social-media">
-        <a href="#" className="social-icon"><i className="fab fa-facebook-f"></i></a>
-        <a href="#" className="social-icon"><i className="fab fa-twitter"></i></a>
-        <a href="#" className="social-icon"><i className="fab fa-google"></i></a>
-        <a href="#" className="social-icon"><i className="fab fa-linkedin-in"></i></a>
+        <button type="button" className="social-icon" aria-label="Sign in with Facebook"><i className="fab fa-facebook-f"></i></button>
+        <button type="button" className="social-icon" aria-label="Sign in with Twitter"><i className="fab fa-twitter"></i></button>
+        <button type="button" className="social-icon" aria-label="Sign in with Google"><i className="fab fa-google"></i></button>
+        <button type="button" className="social-icon" aria-label="Sign in with LinkedIn"><i className="fab fa-linkedin-in"></i></button>
       </div>
     </form>
   );

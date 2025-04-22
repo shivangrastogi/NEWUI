@@ -35,10 +35,10 @@ function SignUp() {
       <input type="submit" className="btn" value="Sign up" />
       <p className="social-text">Or Sign up with social platforms</p>
       <div className="social-media">
-        <a href="#" className="social-icon"><i className="fab fa-facebook-f"></i></a>
-        <a href="#" className="social-icon"><i className="fab fa-twitter"></i></a>
-        <a href="#" className="social-icon"><i className="fab fa-google"></i></a>
-        <a href="#" className="social-icon"><i className="fab fa-linkedin-in"></i></a>
+        <button type="button" className="social-icon" aria-label="Sign up with Facebook"><i className="fab fa-facebook-f"></i></button>
+        <button type="button" className="social-icon" aria-label="Sign up with Twitter"><i className="fab fa-twitter"></i></button>
+        <button type="button" className="social-icon" aria-label="Sign up with Google"><i className="fab fa-google"></i></button>
+        <button type="button" className="social-icon" aria-label="Sign up with LinkedIn"><i className="fab fa-linkedin-in"></i></button>
       </div>
     </form>
   );
